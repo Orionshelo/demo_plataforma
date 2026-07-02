@@ -11,10 +11,10 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
   const medMatches = matches.filter((m) => m.match_score >= 60 && m.match_score < 80);
 
   const radarData = [
-    { subject: 'Operación', A: puntajes_radar.operacion || 0, fullMark: 100 },
-    { subject: 'Financiamiento', A: puntajes_radar.financiamiento || 0, fullMark: 100 },
-    { subject: 'Mercado', A: puntajes_radar.mercado || 0, fullMark: 100 },
-    { subject: 'Innovación', A: puntajes_radar.innovacion || 0, fullMark: 100 },
+    { subject: 'Operación', A: puntajes_radar.operacion || 1, fullMark: 4 },
+    { subject: 'Financiamiento', A: puntajes_radar.financiamiento || 1, fullMark: 4 },
+    { subject: 'Mercado', A: puntajes_radar.mercado || 1, fullMark: 4 },
+    { subject: 'Innovación', A: puntajes_radar.innovacion || 1, fullMark: 4 },
   ];
 
   return (
@@ -45,7 +45,7 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
                   <RadarChart cx="50%" cy="50%" outerRadius="65%" data={radarData}>
                     <PolarGrid stroke="var(--color-gray-200)" />
                     <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--color-navy-900)', fontSize: 12, fontWeight: 600 }} />
-                    <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
+                    <PolarRadiusAxis angle={30} domain={[0, 4]} tick={false} axisLine={false} />
                     <Radar
                       name="Madurez"
                       dataKey="A"

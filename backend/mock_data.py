@@ -302,10 +302,10 @@ def _compute_perfil(respuestas):
     """Calcula el perfil a partir de las respuestas A-D del cuestionario y devuelve puntajes por pilar."""
     pilares = ["operacion", "financiamiento", "mercado", "innovacion"] # Excluir objetivo para el radar
     
-    # Puntajes individuales para el radar (escala 1 a 4 convertido a porcentaje para mejor visualización)
-    # A=1 (25%), B=2 (50%), C=3 (75%), D=4 (100%)
+    # Puntajes individuales para el radar (escala 1 a 4)
+    # A=1, B=2, C=3, D=4
     puntajes_radar = {
-        p: (ANSWER_SCORES.get(respuestas.get(p, "B"), 2) / 4) * 100 for p in pilares
+        p: ANSWER_SCORES.get(respuestas.get(p, "B"), 2) for p in pilares
     }
     
     # Para el cálculo del perfil sí usamos el transversal 'objetivo'
