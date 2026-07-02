@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ruta-integral-mincit
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: demo_plataforma
+    buildCommand: bash build.sh
+    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: NODE_VERSION
+        value: "20"
