@@ -27,11 +27,40 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
             Resultados del emparejamiento semántico con {totalInstrumentos} instrumentos ArCo vigentes 2026.
           </p>
         </div>
+        <button onClick={onReset} className="btn btn-outline">
+          Volver al inicio
+        </button>
       </div>
 
       <div className="grid-sidebar">
         {/* ── Sidebar ──────────────────────────────────────────────── */}
         <div className="flex-col gap-6" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
+          {/* Radar Chart Card (Moved to top) */}
+          {Object.keys(puntajes_radar).length > 0 && (
+            <div className="card text-center">
+              <h3 style={{ marginBottom: 'var(--space-2)', fontSize: '0.9375rem' }}>Radar de Madurez</h3>
+              <p className="text-xs text-muted mb-4">Nivel de desarrollo por pilar estratégico</p>
+              <div style={{ width: '100%', height: 220, margin: '0 auto' }}>
+                <ResponsiveContainer width="100%" height="100%">
+                  <RadarChart cx="50%" cy="50%" outerRadius="65%" data={radarData}>
+                    <PolarGrid stroke="var(--color-gray-200)" />
+                    <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--color-navy-900)', fontSize: 12, fontWeight: 600 }} />
+                    <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
+                    <Radar
+                      name="Madurez"
+                      dataKey="A"
+                      stroke="var(--color-gold-500)"
+                      strokeWidth={2}
+                      fill="var(--color-gold-400)"
+                      fillOpacity={0.65}
+                      label={{ fill: 'var(--color-navy-800)', fontSize: 11, fontWeight: 'bold' }}
+                    />
+                  </RadarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          )}
+
           {/* Profile Card */}
           <div className="card">
             <h3 style={{ marginBottom: 'var(--space-4)', fontSize: '0.9375rem' }}>Hoja de Vida Empresarial</h3>
@@ -63,35 +92,9 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
                 <span className="stat-value">{userData.datos.departamento}</span>
               </div>
             )}
-            <div className="mt-4 mb-4">
+            <div className="mt-4">
               <span className="badge badge-navy">{perfil}</span>
             </div>
-
-            {/* Radar Chart */}
-            {Object.keys(puntajes_radar).length > 0 && (
-              <>
-                <div className="divider" style={{ margin: 'var(--space-4) 0' }} />
-                <h4 style={{ fontSize: '0.875rem', marginBottom: 'var(--space-2)', color: 'var(--text-secondary)' }}>
-                  Radar de Madurez
-                </h4>
-                <div style={{ width: '100%', height: 200 }}>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
-                      <PolarGrid stroke="var(--color-gray-200)" />
-                      <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--text-secondary)', fontSize: 11 }} />
-                      <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
-                      <Radar
-                        name="Madurez"
-                        dataKey="A"
-                        stroke="var(--color-gold-500)"
-                        fill="var(--color-gold-400)"
-                        fillOpacity={0.5}
-                      />
-                    </RadarChart>
-                  </ResponsiveContainer>
-                </div>
-              </>
-            )}
           </div>
 
           {/* Interoperability verification */}
