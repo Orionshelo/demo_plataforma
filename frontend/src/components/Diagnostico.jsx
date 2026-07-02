@@ -92,6 +92,7 @@ function Diagnostico({ apiUrl, userData, onComplete }) {
           respuestas: payload,
           matches: data.matches,
           perfil_calculado: data.perfil_calculado,
+          puntajes_radar: data.puntajes_radar,
           total_instrumentos: data.total_instrumentos_arco,
         });
       }

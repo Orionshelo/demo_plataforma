@@ -52,12 +52,13 @@ def diagnostico():
     data = request.json
     respuestas = data.get('respuestas', {})
 
-    match_results, perfil_calculado = calcular_match(respuestas)
+    match_results, perfil_calculado, puntajes_radar = calcular_match(respuestas)
 
     return jsonify({
         "status": "success",
         "mensaje": "Diagnóstico completado. Motor de emparejamiento semántico (NLP) activo.",
         "perfil_calculado": perfil_calculado,
+        "puntajes_radar": puntajes_radar,
         "total_instrumentos_arco": len(ARCO_INSTRUMENTS),
         "matches": match_results
     })

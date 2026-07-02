@@ -1,11 +1,21 @@
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+
 function Dashboard({ userData, diagnosticoData, onReset }) {
   const matches = diagnosticoData?.matches || [];
+  const puntajes_radar = diagnosticoData?.puntajes_radar || {};
   const nombre = userData?.datos?.nombre || 'Emprendedor';
   const perfil = diagnosticoData?.perfil_calculado || userData?.perfil || '—';
   const totalInstrumentos = diagnosticoData?.total_instrumentos || '—';
 
   const highMatches = matches.filter((m) => m.match_score >= 80);
   const medMatches = matches.filter((m) => m.match_score >= 60 && m.match_score < 80);
+
+  const radarData = [
+    { subject: 'Operación', A: puntajes_radar.operacion || 0, fullMark: 100 },
+    { subject: 'Financiamiento', A: puntajes_radar.financiamiento || 0, fullMark: 100 },
+    { subject: 'Mercado', A: puntajes_radar.mercado || 0, fullMark: 100 },
+    { subject: 'Innovación', A: puntajes_radar.innovacion || 0, fullMark: 100 },
+  ];
 
   return (
     <div className="animate-in">
@@ -24,7 +34,7 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
         <div className="flex-col gap-6" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
           {/* Profile Card */}
           <div className="card">
-            <h3 style={{ marginBottom: 'var(--space-4)', fontSize: '0.9375rem' }}>Perfil empresarial</h3>
+            <h3 style={{ marginBottom: 'var(--space-4)', fontSize: '0.9375rem' }}>Hoja de Vida Empresarial</h3>
             <div className="stat-row">
               <span className="stat-label">Razón social</span>
               <span className="stat-value">{nombre}</span>
@@ -53,9 +63,35 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
                 <span className="stat-value">{userData.datos.departamento}</span>
               </div>
             )}
-            <div className="mt-4">
+            <div className="mt-4 mb-4">
               <span className="badge badge-navy">{perfil}</span>
             </div>
+
+            {/* Radar Chart */}
+            {Object.keys(puntajes_radar).length > 0 && (
+              <>
+                <div className="divider" style={{ margin: 'var(--space-4) 0' }} />
+                <h4 style={{ fontSize: '0.875rem', marginBottom: 'var(--space-2)', color: 'var(--text-secondary)' }}>
+                  Radar de Madurez
+                </h4>
+                <div style={{ width: '100%', height: 200 }}>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
+                      <PolarGrid stroke="var(--color-gray-200)" />
+                      <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--text-secondary)', fontSize: 11 }} />
+                      <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
+                      <Radar
+                        name="Madurez"
+                        dataKey="A"
+                        stroke="var(--color-gold-500)"
+                        fill="var(--color-gold-400)"
+                        fillOpacity={0.5}
+                      />
+                    </RadarChart>
+                  </ResponsiveContainer>
+                </div>
+              </>
+            )}
           </div>
 
           {/* Interoperability verification */}

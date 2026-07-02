@@ -299,14 +299,27 @@ KEYWORD_MAP = {
 
 
 def _compute_perfil(respuestas):
-    """Calcula el perfil a partir de las respuestas A-D del cuestionario."""
-    pilares = ["operacion", "financiamiento", "mercado", "innovacion", "objetivo"]
-    scores = [ANSWER_SCORES.get(respuestas.get(p, "B"), 2) for p in pilares]
+    """Calcula el perfil a partir de las respuestas A-D del cuestionario y devuelve puntajes por pilar."""
+    pilares = ["operacion", "financiamiento", "mercado", "innovacion"] # Excluir objetivo para el radar
+    
+    # Puntajes individuales para el radar (escala 1 a 4 convertido a porcentaje para mejor visualización)
+    # A=1 (25%), B=2 (50%), C=3 (75%), D=4 (100%)
+    puntajes_radar = {
+        p: (ANSWER_SCORES.get(respuestas.get(p, "B"), 2) / 4) * 100 for p in pilares
+    }
+    
+    # Para el cálculo del perfil sí usamos el transversal 'objetivo'
+    todos_pilares = pilares + ["objetivo"]
+    scores = [ANSWER_SCORES.get(respuestas.get(p, "B"), 2) for p in todos_pilares]
     avg = sum(scores) / len(scores)
+    
+    perfil_resultado = (PERFIL_RANGES[-1][1], PERFIL_RANGES[-1][2], avg)
     for lo, hi, nombre, pid in PERFIL_RANGES:
         if lo <= avg < hi:
-            return nombre, pid, avg
-    return PERFIL_RANGES[-1][1], PERFIL_RANGES[-1][2], avg
+            perfil_resultado = (nombre, pid, avg)
+            break
+            
+    return perfil_resultado[0], perfil_resultado[1], perfil_resultado[2], puntajes_radar
 
 
 def _nlp_keywords(texto):
@@ -324,7 +337,7 @@ def calcular_match(respuestas):
     Calcula el emparejamiento entre el perfil del usuario y los
     instrumentos vigentes 2026 de ArCo.
     """
-    perfil_nombre, perfil_id, avg_score = _compute_perfil(respuestas)
+    perfil_nombre, perfil_id, avg_score, puntajes_radar = _compute_perfil(respuestas)
     nlp_text = respuestas.get("necesidad_nlp", "")
     nlp_objectives = _nlp_keywords(nlp_text)
 
@@ -373,4 +386,4 @@ def calcular_match(respuestas):
             })
 
     matches.sort(key=lambda x: x["match_score"], reverse=True)
-    return matches, perfil_nombre
+    return matches, perfil_nombre, puntajes_radar
