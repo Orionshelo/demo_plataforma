@@ -42,10 +42,10 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
               <p className="text-xs text-muted mb-4">Nivel de desarrollo por pilar estratégico</p>
               <div style={{ width: '100%', height: 220, margin: '0 auto' }}>
                 <ResponsiveContainer width="100%" height="100%">
-                  <RadarChart cx="50%" cy="50%" outerRadius="65%" data={radarData}>
+                  <RadarChart cx="50%" cy="50%" outerRadius="50%" data={radarData}>
                     <PolarGrid stroke="var(--color-gray-200)" />
-                    <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--color-navy-900)', fontSize: 12, fontWeight: 600 }} />
-                    <PolarRadiusAxis angle={30} domain={[0, 4]} tick={false} axisLine={false} />
+                    <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--color-navy-900)', fontSize: 11, fontWeight: 600 }} />
+                    <PolarRadiusAxis angle={30} domain={[0, 4]} tickCount={5} tick={false} axisLine={false} />
                     <Radar
                       name="Madurez"
                       dataKey="A"
