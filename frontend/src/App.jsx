@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Landing from './components/Landing';
+import ApplyStep from './components/ApplyStep';
 import Diagnostico from './components/Diagnostico';
 import Dashboard from './components/Dashboard';
 
@@ -9,6 +10,7 @@ function App() {
   const [currentStep, setCurrentStep] = useState('landing');
   const [userData, setUserData] = useState(null);
   const [diagnosticoData, setDiagnosticoData] = useState(null);
+  const [programaSeleccionado, setProgramaSeleccionado] = useState(null);
 
   const handleLogin = (data) => {
     setUserData(data);
@@ -24,10 +26,16 @@ function App() {
     setCurrentStep('dashboard');
   };
 
+  const handleApply = (programa) => {
+    setProgramaSeleccionado(programa);
+    setCurrentStep('apply');
+  };
+
   const handleReset = () => {
     setCurrentStep('landing');
     setUserData(null);
     setDiagnosticoData(null);
+    setProgramaSeleccionado(null);
   };
 
   return (
@@ -62,7 +70,10 @@ function App() {
             <Diagnostico apiUrl={API_URL} userData={userData} onComplete={handleDiagnosticoComplete} />
           )}
           {currentStep === 'dashboard' && (
-            <Dashboard userData={userData} diagnosticoData={diagnosticoData} onReset={handleReset} />
+            <Dashboard userData={userData} diagnosticoData={diagnosticoData} onReset={handleReset} onApply={handleApply} />
+          )}
+          {currentStep === 'apply' && (
+            <ApplyStep userData={userData} programa={programaSeleccionado} onReset={handleReset} />
           )}
         </div>
       </main>

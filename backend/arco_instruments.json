@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "BANC-05",
+    "entidad": "Bancóldex",
+    "nombre": "Coberturas Cambiarias",
+    "objetivos": [
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por Bancóldex. Objetivos: I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Formación de Talento Humano."
+  },
+  {
+    "id": "BANC-04",
+    "entidad": "Bancóldex",
+    "nombre": "LÍNEA DE CRÉDITO APOYO A LA ECONOMÍA POPULAR REGIONAL 2025",
+    "objetivos": [
+      "Emprendimiento"
+    ],
+    "usuarios": [
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por Bancóldex. Objetivos: Emprendimiento. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "BANC-04-2",
+    "entidad": "Bancóldex",
+    "nombre": "Línea de crédito Creo Economía Popular 2023",
+    "objetivos": [
+      "Economía Popular",
+      "Emprendimiento"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por Bancóldex. Objetivos: Economía Popular, Emprendimiento. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "BANC-06",
+    "entidad": "Bancóldex",
+    "nombre": "neocrédito",
+    "objetivos": [
+      "Emprendimiento"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por Bancóldex. Objetivos: Emprendimiento. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "COLO-04",
+    "entidad": "Colombia Productiva",
+    "nombre": "Calidad para la Reindustrialización - Asistencia técnica en calidad para mipymes (Extensionismo) - Formación en calidad para mipymes",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Calidad / Productividad y Competitividad, Formación de Capital Humano. Apoyos: Asistencia técnica y Consultoría, Formación de Talento Humano."
+  },
+  {
+    "id": "COLO-05",
+    "entidad": "Colombia Productiva",
+    "nombre": "Calidad para la Reindustrialización - Certificación",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Calidad / Productividad y Competitividad. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "COLO-12",
+    "entidad": "Colombia Productiva",
+    "nombre": "Desarrollo de cadenas de valor basadas en el aprovechamiento sostenible de la biodiversidad en las regiones de Colombia",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Desarrollo Sostenible"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Desarrollo Sostenible. Apoyos: Asistencia técnica y Consultoría, Eventos, Redes de Colaboración."
+  },
+  {
+    "id": "COLO-16",
+    "entidad": "Colombia Productiva",
+    "nombre": "Encadenamientos Productivos",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Desarrollo Digital",
+      "Formación de Capital Humano",
+      "Formalización",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Bonos o Vouchers",
+      "Eventos",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Desarrollo Digital, Formación de Capital Humano, Formalización, I+D+i (Investigación, Desarrollo e Innovación), Transferencia de Conocimiento y Tecnología. Apoyos: Asistencia técnica y Consultoría, Bonos o Vouchers, Eventos, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "COLO-07",
+    "entidad": "Colombia Productiva",
+    "nombre": "Mujeres más Productivas",
+    "objetivos": [
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Formalización",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Bonos o Vouchers",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Clúster / Asociatividad, Economía Popular, Educación económica y financiera, Formalización, Inclusión Financiera. Apoyos: Asistencia técnica y Consultoría, Bonos o Vouchers, Compra Pública, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "COLO-13",
+    "entidad": "Colombia Productiva",
+    "nombre": "Pago en Plazos Justos",
+    "objetivos": [
+      "Formalización"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Premios y Reconocimientos"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Formalización. Apoyos: Premios y Reconocimientos."
+  },
+  {
+    "id": "COLO-15",
+    "entidad": "Colombia Productiva",
+    "nombre": "Ruedas conecta",
+    "objetivos": [
+      "Acceso a financiación",
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Educación económica y financiera"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Eventos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Acceso a financiación, Acceso a mercados / Comercialización, Clúster / Asociatividad, Economía Popular, Educación económica y financiera. Apoyos: Eventos, Redes de Colaboración."
+  },
+  {
+    "id": "COLO-09",
+    "entidad": "Colombia Productiva",
+    "nombre": "Soluciones por la Reindustrialización",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Comercio Electrónico",
+      "Desarrollo Digital",
+      "Desarrollo Sostenible",
+      "Economía Popular",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Instrumentos Regulatorios",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por Colombia Productiva. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Comercio Electrónico, Desarrollo Digital, Desarrollo Sostenible, Economía Popular, I+D+i (Investigación, Desarrollo e Innovación), Transferencia de Conocimiento y Tecnología. Apoyos: Instrumentos Regulatorios, Redes de Colaboración."
+  },
+  {
+    "id": "FONT-03",
+    "entidad": "Fontur",
+    "nombre": "Red Turística de Pueblos Patrimonio",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Desarrollo Sostenible",
+      "Emprendimiento",
+      "Formación de Capital Humano",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Gobierno"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios",
+      "Premios y Reconocimientos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por Fontur. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Desarrollo Sostenible, Emprendimiento, Formación de Capital Humano, Formalización. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Instrumentos Regulatorios, Premios y Reconocimientos, Redes de Colaboración."
+  },
+  {
+    "id": "FONT-01",
+    "entidad": "Fontur",
+    "nombre": "Tarjeta Joven Colombia",
+    "objetivos": [
+      "Acceso a mercados / Comercialización"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Bonos o Vouchers",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por Fontur. Objetivos: Acceso a mercados / Comercialización. Apoyos: Bonos o Vouchers, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-18",
+    "entidad": "MinCIT",
+    "nombre": "Apuestas Productivas Sostenibles",
+    "objetivos": [
+      "Acceso a financiación",
+      "Calidad / Productividad y Competitividad",
+      "Desarrollo Sostenible"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a financiación, Calidad / Productividad y Competitividad, Desarrollo Sostenible. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "MINC-15",
+    "entidad": "MinCIT",
+    "nombre": "Asesorías en la formulación de proyectos de infraestructura turística para las regiones",
+    "objetivos": [
+      "Desarrollo Sostenible"
+    ],
+    "usuarios": [
+      "Gobierno"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Desarrollo Sostenible. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "MINC-14",
+    "entidad": "MinCIT",
+    "nombre": "Calidad Turística",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Comercio Electrónico",
+      "Educación económica y financiera",
+      "Formación de Capital Humano",
+      "Formalización",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Comercio Electrónico, Educación económica y financiera, Formación de Capital Humano, Formalización, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Asistencia técnica y Consultoría, Formación de Talento Humano, Instrumentos Regulatorios."
+  },
+  {
+    "id": "MINC-02",
+    "entidad": "MinCIT",
+    "nombre": "Cofinanciación en Certificados de Calidad para la Internacionalización",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Calidad / Productividad y Competitividad. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "MINC-13",
+    "entidad": "MinCIT",
+    "nombre": "Colegio Amigos del Turismo - CAT",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Academia",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Premios y Reconocimientos"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Calidad / Productividad y Competitividad, Formación de Capital Humano. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Premios y Reconocimientos."
+  },
+  {
+    "id": "MINC-04",
+    "entidad": "MinCIT",
+    "nombre": "Colombia Limpia",
+    "objetivos": [
+      "Emprendimiento",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Eventos",
+      "Formación de Talento Humano",
+      "Premios y Reconocimientos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Emprendimiento, Formación de Capital Humano. Apoyos: Eventos, Formación de Talento Humano, Premios y Reconocimientos, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-17",
+    "entidad": "MinCIT",
+    "nombre": "Estrategia de Turismo para un Cultura de Paz",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Emprendimiento",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Gobierno",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Premios y Reconocimientos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Economía Popular, Educación económica y financiera, Emprendimiento, Formalización. Apoyos: Asistencia técnica y Consultoría, Premios y Reconocimientos, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-06",
+    "entidad": "MinCIT",
+    "nombre": "Estrategía de Turismo Responsable",
+    "objetivos": [
+      "Desarrollo Sostenible",
+      "Formación de Capital Humano",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios",
+      "Premios y Reconocimientos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Desarrollo Sostenible, Formación de Capital Humano, Formalización. Apoyos: Asistencia técnica y Consultoría, Formación de Talento Humano, Instrumentos Regulatorios, Premios y Reconocimientos, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-19",
+    "entidad": "MinCIT",
+    "nombre": "Fábricas de Productividad y Sostenibilidad",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad",
+      "Desarrollo Digital"
+    ],
+    "usuarios": [
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Calidad / Productividad y Competitividad, Desarrollo Digital. Apoyos: Asistencia técnica y Consultoría, Formación de Talento Humano."
+  },
+  {
+    "id": "MINC-08",
+    "entidad": "MinCIT",
+    "nombre": "Formación y Extensionismo en Normas Técnicas Colombianas",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Calidad / Productividad y Competitividad. Apoyos: Asistencia técnica y Consultoría, Formación de Talento Humano."
+  },
+  {
+    "id": "MINC-20",
+    "entidad": "MinCIT",
+    "nombre": "Fortalecimiento Territorial",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad. Apoyos: Asistencia técnica y Consultoría, Eventos, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-12",
+    "entidad": "MinCIT",
+    "nombre": "Gestión de destinos turísticos",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Desarrollo Sostenible",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Desarrollo Sostenible, Formación de Capital Humano. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "MINC-03",
+    "entidad": "MinCIT",
+    "nombre": "Jornadas de Formalización Turística",
+    "objetivos": [
+      "Formalización"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Formalización. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "MINC-11",
+    "entidad": "MinCIT",
+    "nombre": "Promoción de Encadenamientos Productivos a través del Desarrollo de Proveedores",
+    "objetivos": [
+      "Clúster / Asociatividad"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Clúster / Asociatividad. Apoyos: Redes de Colaboración."
+  },
+  {
+    "id": "MINC-10",
+    "entidad": "MinCIT",
+    "nombre": "Proyectos Turísticos Especiales - PTE",
+    "objetivos": [
+      "Acceso a financiación",
+      "Emprendimiento",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Incentivos Tributarios",
+      "Instrumentos Regulatorios"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a financiación, Emprendimiento, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Asistencia técnica y Consultoría, Incentivos Tributarios, Instrumentos Regulatorios."
+  },
+  {
+    "id": "MINC-21",
+    "entidad": "MinCIT",
+    "nombre": "Territorios Clúster",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "MINC-07",
+    "entidad": "MinCIT",
+    "nombre": "Ventanilla Única de Comercio Exterior VUCE",
+    "objetivos": [
+      "Acceso a mercados / Comercialización"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por MinCIT. Objetivos: Acceso a mercados / Comercialización. Apoyos: Sistemas de Información."
+  },
+  {
+    "id": "PROC-13",
+    "entidad": "ProColombia",
+    "nombre": "Buscador de Oportunidades Herramienta virtual para identificar oportunidades de inversión en Colombia - Invest in Colombia",
+    "objetivos": [
+      "Inversión y Clima de Negocios"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Inversión y Clima de Negocios. Apoyos: Sistemas de Información."
+  },
+  {
+    "id": "PROC-01",
+    "entidad": "ProColombia",
+    "nombre": "Adecuación y asesoría para empresas colombianas del sector turismo",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Formalización. Apoyos: Asistencia técnica y Consultoría, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "PROC-14",
+    "entidad": "ProColombia",
+    "nombre": "Capacitación a personas y empresas colombianas de Bienes y servicios - Programa de Formación Exportadora de bienes y servicios",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Comercio Electrónico",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Comercio Electrónico, Inclusión Financiera. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "PROC-09",
+    "entidad": "ProColombia",
+    "nombre": "Capacitación a personas y empresas colombianas del sector turismo - Programa de Formación Exportadora de Turismo",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Formalización. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "PROC-02",
+    "entidad": "ProColombia",
+    "nombre": "Colombia Investment Summit  - Macrorrueda Inversión Extranjera Directa",
+    "objetivos": [
+      "Inversión y Clima de Negocios"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Eventos",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Inversión y Clima de Negocios. Apoyos: Eventos, Redes de Colaboración."
+  },
+  {
+    "id": "PROC-07",
+    "entidad": "ProColombia",
+    "nombre": "Fábricas de Internacionalización",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Comercio Electrónico",
+      "Desarrollo Sostenible",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Comercio Electrónico, Desarrollo Sostenible, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "PROC-10",
+    "entidad": "ProColombia",
+    "nombre": "Herramienta virtual para conocer la oferta turística colombiana - Colombia.Travel",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Formalización. Apoyos: Sistemas de Información."
+  },
+  {
+    "id": "PROC-12",
+    "entidad": "ProColombia",
+    "nombre": "Herramientas digitales y virtuales para la internacionalización",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Comercio Electrónico",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Comercio Electrónico, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Sistemas de Información."
+  },
+  {
+    "id": "PROC-03",
+    "entidad": "ProColombia",
+    "nombre": "Kit de Servicios para inversionistas extranjeros nuevos e instalados",
+    "objetivos": [
+      "Inversión y Clima de Negocios"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Inversión y Clima de Negocios. Apoyos: Asistencia técnica y Consultoría, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "PROC-05",
+    "entidad": "ProColombia",
+    "nombre": "ProColombia Pitch Session para fondos de capital extranjeros en busca de proyectos colombianos listos para recibir inversión extranjera directa",
+    "objetivos": [
+      "Inversión y Clima de Negocios"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Inversión y Clima de Negocios. Apoyos: Asistencia técnica y Consultoría, Redes de Colaboración."
+  },
+  {
+    "id": "PROC-08",
+    "entidad": "ProColombia",
+    "nombre": "Promoción de las exportaciones y actividades comerciales para la generación de oportunidades y negocios",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Comercio Electrónico"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Eventos"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Comercio Electrónico. Apoyos: Eventos."
+  },
+  {
+    "id": "PROC-11",
+    "entidad": "ProColombia",
+    "nombre": "Promoción del turismo internacional y actividades comerciales para la generación de oportunidades",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Eventos",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por ProColombia. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad. Apoyos: Eventos, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-04",
+    "entidad": "iNNpulsa",
+    "nombre": "ALDEA",
+    "objetivos": [
+      "Desarrollo Sostenible",
+      "Emprendimiento",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Desarrollo Sostenible, Emprendimiento, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Asistencia técnica y Consultoría, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-11",
+    "entidad": "iNNpulsa",
+    "nombre": "Aldea Escala Empresas",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Desarrollo Sostenible",
+      "Educación económica y financiera",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Desarrollo Sostenible, Educación económica y financiera, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-03",
+    "entidad": "iNNpulsa",
+    "nombre": "CEmprende",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Formación de Capital Humano",
+      "Formalización",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Formación de Capital Humano, Formalización, Transferencia de Conocimiento y Tecnología. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-15",
+    "entidad": "iNNpulsa",
+    "nombre": "Centros de Reindustralización ZASCA",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Comercio Electrónico",
+      "Desarrollo Digital",
+      "Economía Popular",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Comercio Electrónico, Desarrollo Digital, Economía Popular, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación), Transferencia de Conocimiento y Tecnología. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Instrumentos Regulatorios, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-25",
+    "entidad": "iNNpulsa",
+    "nombre": "CIRCULOS SOLIDARIOS",
+    "objetivos": [
+      "Acceso a financiación",
+      "Educación económica y financiera",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a financiación, Educación económica y financiera, Inclusión Financiera. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-21",
+    "entidad": "iNNpulsa",
+    "nombre": "Comercializadoras Territoriales",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Economía Popular, Formación de Capital Humano. Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-32",
+    "entidad": "iNNpulsa",
+    "nombre": "Crecer Juntos desarrollo para la Economia Popular",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Formalización",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Bonos o Vouchers",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Economía Popular, Educación económica y financiera, Formalización, Inclusión Financiera. Apoyos: Asistencia técnica y Consultoría, Bonos o Vouchers, Compra Pública, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-33",
+    "entidad": "iNNpulsa",
+    "nombre": "Credito Asociativo",
+    "objetivos": [
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Entidades de soporte",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Inclusión Financiera. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "INNP-34",
+    "entidad": "iNNpulsa",
+    "nombre": "Credito asociativo - Linea NARP",
+    "objetivos": [
+      "Acceso a financiación",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a financiación, Inclusión Financiera. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "INNP-13",
+    "entidad": "iNNpulsa",
+    "nombre": "Emprendetón",
+    "objetivos": [
+      "Educación económica y financiera",
+      "Emprendimiento",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Educación económica y financiera, Emprendimiento, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-27",
+    "entidad": "iNNpulsa",
+    "nombre": "Encadenamientos en Agroindustria",
+    "objetivos": [],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: no especificados. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-35",
+    "entidad": "iNNpulsa",
+    "nombre": "Fondo de Fondos",
+    "objetivos": [
+      "Acceso a financiación",
+      "Acceso a mercados / Comercialización",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a financiación, Acceso a mercados / Comercialización, Inclusión Financiera. Apoyos: Apoyo Financiero."
+  },
+  {
+    "id": "INNP-12",
+    "entidad": "iNNpulsa",
+    "nombre": "FortaleSER",
+    "objetivos": [
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Comercio Electrónico",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Formación de Capital Humano",
+      "Formalización",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Inclusión Financiera",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Calidad / Productividad y Competitividad, Clúster / Asociatividad, Comercio Electrónico, Economía Popular, Educación económica y financiera, Formación de Capital Humano, Formalización, I+D+i (Investigación, Desarrollo e Innovación), Inclusión Financiera, Transferencia de Conocimiento y Tecnología. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-36",
+    "entidad": "iNNpulsa",
+    "nombre": "Innpulsa 360° Fortalecimiento de marca y presencia de canales digitales",
+    "objetivos": [],
+    "usuarios": [
+      "Emprendedores",
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: no especificados. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Instrumentos Regulatorios, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-37",
+    "entidad": "iNNpulsa",
+    "nombre": "Instrumento de Inclusión Financiera - Línea de Crédito Economía Popular",
+    "objetivos": [
+      "Emprendimiento",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Emprendimiento, Inclusión Financiera. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-08",
+    "entidad": "iNNpulsa",
+    "nombre": "MiLAB - Laboratorio Govtech de Colombia",
+    "objetivos": [
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación), Transferencia de Conocimiento y Tecnología. Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-23",
+    "entidad": "iNNpulsa",
+    "nombre": "Minicadenas locales",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Economía Popular, Formación de Capital Humano. Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-14",
+    "entidad": "iNNpulsa",
+    "nombre": "Oportunidades  para Emprender",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Comercio Electrónico",
+      "Educación económica y financiera",
+      "Emprendimiento",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Comercio Electrónico, Educación económica y financiera, Emprendimiento, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación), Inclusión Financiera. Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-38",
+    "entidad": "iNNpulsa",
+    "nombre": "Pago Plazos Justos",
+    "objetivos": [
+      "Inclusión Financiera",
+      "Inversión y Clima de Negocios"
+    ],
+    "usuarios": [
+      "Entidades de soporte"
+    ],
+    "apoyos": [
+      "Eventos",
+      "Premios y Reconocimientos"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Inclusión Financiera, Inversión y Clima de Negocios. Apoyos: Eventos, Premios y Reconocimientos."
+  },
+  {
+    "id": "INNP-27-2",
+    "entidad": "iNNpulsa",
+    "nombre": "Programa de Encadenamientos Productivos",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Clúster / Asociatividad",
+      "Desarrollo Digital",
+      "Formación de Capital Humano",
+      "Formalización",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Clúster / Asociatividad, Desarrollo Digital, Formación de Capital Humano, Formalización, Transferencia de Conocimiento y Tecnología. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-20",
+    "entidad": "iNNpulsa",
+    "nombre": "Programa de Fortalecimiento Productivo y Comercial a Pueblos Étnicos",
+    "objetivos": [
+      "Propiedad intelectual"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Propiedad intelectual. Apoyos: Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-28",
+    "entidad": "iNNpulsa",
+    "nombre": "Programa iNNpulsa Crowdleanding",
+    "objetivos": [
+      "Acceso a financiación",
+      "Educación económica y financiera",
+      "Emprendimiento",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a financiación, Educación económica y financiera, Emprendimiento, Inclusión Financiera. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Eventos, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-01",
+    "entidad": "iNNpulsa",
+    "nombre": "Programa LGBTIQ+",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Economía Popular",
+      "Formalización",
+      "Inclusión Financiera"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Entidades de soporte",
+      "Grandes empresas",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Eventos",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Economía Popular, Formalización, Inclusión Financiera. Apoyos: Asistencia técnica y Consultoría, Compra Pública, Eventos, Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-39",
+    "entidad": "iNNpulsa",
+    "nombre": "Proyecto Poblacion Pospenada",
+    "objetivos": [
+      "Comercio Electrónico",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Emprendimiento"
+    ],
+    "usuarios": [
+      "Emprendedores",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Instrumentos Regulatorios",
+      "Redes de Colaboración",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Comercio Electrónico, Economía Popular, Educación económica y financiera, Emprendimiento. Apoyos: Asistencia técnica y Consultoría, Eventos, Formación de Talento Humano, Instrumentos Regulatorios, Redes de Colaboración, Sistemas de Información."
+  },
+  {
+    "id": "INNP-04-2",
+    "entidad": "iNNpulsa",
+    "nombre": "Ruta ALDEA",
+    "objetivos": [
+      "Acceso a financiación",
+      "Acceso a mercados / Comercialización",
+      "Comercio Electrónico",
+      "Desarrollo Sostenible",
+      "Educación económica y financiera",
+      "Emprendimiento",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Bonos o Vouchers",
+      "Eventos",
+      "Formación de Talento Humano",
+      "Redes de Colaboración"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a financiación, Acceso a mercados / Comercialización, Comercio Electrónico, Desarrollo Sostenible, Educación económica y financiera, Emprendimiento, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Asistencia técnica y Consultoría, Bonos o Vouchers, Eventos, Formación de Talento Humano, Redes de Colaboración."
+  },
+  {
+    "id": "INNP-12-2",
+    "entidad": "iNNpulsa",
+    "nombre": "Ruta de apoyo al desarrollo de las microempresas NARP",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Economía Popular",
+      "Emprendimiento",
+      "Formación de Capital Humano"
+    ],
+    "usuarios": [
+      "Entidades de soporte",
+      "Mipymes",
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Compra Pública"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Economía Popular, Emprendimiento, Formación de Capital Humano. Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Compra Pública."
+  },
+  {
+    "id": "INNP-30",
+    "entidad": "iNNpulsa",
+    "nombre": "Ruta de intervención para el fortalecimiento territorial",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Clúster / Asociatividad",
+      "Comercio Electrónico",
+      "Desarrollo Sostenible",
+      "Economía Popular",
+      "I+D+i (Investigación, Desarrollo e Innovación)",
+      "Transferencia de Conocimiento y Tecnología"
+    ],
+    "usuarios": [
+      "Gobierno"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Clúster / Asociatividad, Comercio Electrónico, Desarrollo Sostenible, Economía Popular, I+D+i (Investigación, Desarrollo e Innovación), Transferencia de Conocimiento y Tecnología. Apoyos: Asistencia técnica y Consultoría."
+  },
+  {
+    "id": "INNP-24",
+    "entidad": "iNNpulsa",
+    "nombre": "Transformación de Cacao",
+    "objetivos": [
+      "Acceso a mercados / Comercialización",
+      "Calidad / Productividad y Competitividad",
+      "Economía Popular",
+      "Educación económica y financiera",
+      "Formación de Capital Humano",
+      "I+D+i (Investigación, Desarrollo e Innovación)"
+    ],
+    "usuarios": [
+      "Personas naturales"
+    ],
+    "apoyos": [
+      "Apoyo Financiero",
+      "Asistencia técnica y Consultoría",
+      "Compra Pública",
+      "Formación de Talento Humano"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Acceso a mercados / Comercialización, Calidad / Productividad y Competitividad, Economía Popular, Educación económica y financiera, Formación de Capital Humano, I+D+i (Investigación, Desarrollo e Innovación). Apoyos: Apoyo Financiero, Asistencia técnica y Consultoría, Compra Pública, Formación de Talento Humano."
+  },
+  {
+    "id": "INNP-31",
+    "entidad": "iNNpulsa",
+    "nombre": "Ventanilla Única Empresarial -  VUE",
+    "objetivos": [
+      "Emprendimiento",
+      "Formalización"
+    ],
+    "usuarios": [
+      "Academia",
+      "Entidades de soporte",
+      "Gobierno",
+      "Grandes empresas",
+      "Mipymes"
+    ],
+    "apoyos": [
+      "Asistencia técnica y Consultoría",
+      "Sistemas de Información"
+    ],
+    "descripcion": "Instrumento ofrecido por iNNpulsa. Objetivos: Emprendimiento, Formalización. Apoyos: Asistencia técnica y Consultoría, Sistemas de Información."
+  }
+]

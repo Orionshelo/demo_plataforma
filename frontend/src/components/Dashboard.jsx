@@ -1,6 +1,6 @@
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
 
-function Dashboard({ userData, diagnosticoData, onReset }) {
+function Dashboard({ userData, diagnosticoData, onReset, onApply }) {
   const matches = diagnosticoData?.matches || [];
   const puntajes_radar = diagnosticoData?.puntajes_radar || {};
   const nombre = userData?.datos?.nombre || 'Emprendedor';
@@ -172,7 +172,7 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
               </div>
               <div className="flex-col stagger" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
                 {highMatches.map((m, i) => (
-                  <MatchCard key={i} match={m} />
+                  <MatchCard key={i} match={m} onApply={onApply} />
                 ))}
               </div>
             </div>
@@ -187,7 +187,7 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
               </div>
               <div className="flex-col stagger" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
                 {medMatches.map((m, i) => (
-                  <MatchCard key={i} match={m} />
+                  <MatchCard key={i} match={m} onApply={onApply} />
                 ))}
               </div>
             </div>
@@ -206,7 +206,7 @@ function Dashboard({ userData, diagnosticoData, onReset }) {
 
 
 /* ── Match Card sub-component ──────────────────────────────────────── */
-function MatchCard({ match }) {
+function MatchCard({ match, onApply }) {
   const { programa, match_score } = match;
   const scoreClass = match_score >= 80 ? 'score-high' : match_score >= 70 ? 'score-medium' : 'score-low';
   const scoreColor = match_score >= 80 ? 'var(--color-success)' : match_score >= 70 ? 'var(--color-gold-500)' : 'var(--color-warning)';
@@ -225,7 +225,7 @@ function MatchCard({ match }) {
 
           {/* Tags */}
           <div>
-            {programa.objetivos?.map((obj, i) => (
+            {programa.objetivos?.slice(0, 3).map((obj, i) => (
               <span key={i} className="tag">{obj}</span>
             ))}
             {programa.apoyos?.map((ap, i) => (
@@ -247,7 +247,7 @@ function MatchCard({ match }) {
       </div>
 
       <div className="divider" style={{ margin: 'var(--space-4) 0' }} />
-      <button className="btn btn-primary btn-sm btn-block">
+      <button className="btn btn-primary btn-sm btn-block" onClick={() => onApply(programa)}>
         Aplicar — Radicación virtual
       </button>
     </div>
